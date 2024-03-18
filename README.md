@@ -47,4 +47,6 @@ $$
 Interval [L, R] for F(100) 99% confidence: [486.277, 551.201]
 
 ## Usage
-To run the program, compile `main.cpp` using a C++ compiler and execute the generated binary.
+To run the program, compile `main.cpp` using a C++ compiler and execute the generated binary. The only argument is N.
+> g++ ./main.cpp -o main \
+> ./main 100
