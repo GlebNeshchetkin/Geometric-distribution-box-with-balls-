@@ -44,7 +44,7 @@ $$
 $$
 
 ### Result
-[L,R] = [XXX,XXX]
+Interval [L, R] for F(100) 99% confidence: [486.277, 551.201]
 
 ## Usage
 To run the program, compile `main.cpp` using a C++ compiler and execute the generated binary.
