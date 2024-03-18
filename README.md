@@ -23,7 +23,7 @@ $$
 where γ is the Euler-Mascheroni constant.
 
 ### Precision
-For N from 1000 to $10^{18}$ with step 1000 average precision is XXX.
+For N from 1000 to $5*10^{7}$ with step 1000 average precision is 0.122.
 
 ## Confidence Interval Calculation
 To calculate the confidence interval for F(100) with a 99% confidence level, the following steps are taken:
@@ -42,6 +42,9 @@ $X_i$ and $X_j$ are independent since the sequence of colors is not important.
 $$
 \text{Var}[F(N)] = \sum_{i=1}^{N} \text{Var}[X_i] = \sum_{i=1}^{N} \frac{1-p_i}{p_i^2}
 $$
+
+### Result
+[L,R] = [XXX,XXX]
 
 ## Usage
 To run the program, compile `main.cpp` using a C++ compiler and execute the generated binary.
